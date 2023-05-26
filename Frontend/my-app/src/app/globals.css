@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .appear-menu{
+        @apply opacity-0 duration-300 absolute left-24 bg-black whitespace-pre rounded-md p-2 text-white drop-shadow-md   group-hover:left-14  group-hover:opacity-100
+    }
+    
+}
